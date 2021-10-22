@@ -1,0 +1,43 @@
+import random
+
+#1.1
+List1 = ["apple", "banana", "cherry"]
+List1.append("orange")
+print(List1)
+
+#1.2
+List2 = ["apple", "banana", "cherry"]
+print(List2[0])
+
+
+#1.3
+List3 = ["apple", "banana", "cherry"]
+List3[2] = "blackcurrant"
+print(List3)
+
+#1.4
+List4 = ["apple", "banana", "cherry", "apple", "banana", "cherry"]
+print(List4)
+
+#1.5
+List5 = ["joke_1", "joke_2", "joke_3"]
+print (random.choice(List5))
+
+def print1():
+    print ("funtion 1")
+
+def print2():
+    print ("funtion 2")
+
+def print3():
+    print ("funtion 3")
+
+def print4():
+    print ("funtion 4")
+
+def print5():
+    print ("funtion 5")
+
+def print6():
+    print ("funtion 6")
+    
